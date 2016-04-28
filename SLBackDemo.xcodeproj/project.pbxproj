@@ -13,6 +13,11 @@
 		38A618AB1C4FC8C40005F5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A618A91C4FC8C40005F5CE /* Main.storyboard */; };
 		38A618AD1C4FC8C40005F5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A618AC1C4FC8C40005F5CE /* Assets.xcassets */; };
 		38A618B01C4FC8C40005F5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A618AE1C4FC8C40005F5CE /* LaunchScreen.storyboard */; };
+		38A618B91C4FC9130005F5CE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A618B81C4FC9130005F5CE /* FirstViewController.m */; };
+		38A618BC1C4FC9310005F5CE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A618BB1C4FC9310005F5CE /* SecondViewController.m */; };
+		38A618BF1C4FC9770005F5CE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A618BE1C4FC9770005F5CE /* ThirdViewController.m */; };
+		38A618C71C4FCBEF0005F5CE /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A618C61C4FCBEF0005F5CE /* back@2x.png */; };
+		38A618CA1C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A618C91C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		38A618AC1C4FC8C40005F5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A618AF1C4FC8C40005F5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A618B11C4FC8C40005F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A618B71C4FC9130005F5CE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		38A618B81C4FC9130005F5CE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		38A618BA1C4FC9310005F5CE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		38A618BB1C4FC9310005F5CE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		38A618BD1C4FC9770005F5CE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		38A618BE1C4FC9770005F5CE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		38A618C61C4FCBEF0005F5CE /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		38A618C81C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SLBackBtnAndViewExe.h"; sourceTree = "<group>"; };
+		38A618C91C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SLBackBtnAndViewExe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,15 @@
 				38A618A41C4FC8C40005F5CE /* AppDelegate.m */,
 				38A618A61C4FC8C40005F5CE /* ViewController.h */,
 				38A618A71C4FC8C40005F5CE /* ViewController.m */,
+				38A618C81C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.h */,
+				38A618C91C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.m */,
+				38A618B71C4FC9130005F5CE /* FirstViewController.h */,
+				38A618B81C4FC9130005F5CE /* FirstViewController.m */,
+				38A618BA1C4FC9310005F5CE /* SecondViewController.h */,
+				38A618BB1C4FC9310005F5CE /* SecondViewController.m */,
+				38A618BD1C4FC9770005F5CE /* ThirdViewController.h */,
+				38A618BE1C4FC9770005F5CE /* ThirdViewController.m */,
+				38A618C61C4FCBEF0005F5CE /* back@2x.png */,
 				38A618A91C4FC8C40005F5CE /* Main.storyboard */,
 				38A618AC1C4FC8C40005F5CE /* Assets.xcassets */,
 				38A618AE1C4FC8C40005F5CE /* LaunchScreen.storyboard */,
@@ -137,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A618B01C4FC8C40005F5CE /* LaunchScreen.storyboard in Resources */,
+				38A618C71C4FCBEF0005F5CE /* back@2x.png in Resources */,
 				38A618AD1C4FC8C40005F5CE /* Assets.xcassets in Resources */,
 				38A618AB1C4FC8C40005F5CE /* Main.storyboard in Resources */,
 			);
@@ -149,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A618BC1C4FC9310005F5CE /* SecondViewController.m in Sources */,
 				38A618A81C4FC8C40005F5CE /* ViewController.m in Sources */,
+				38A618BF1C4FC9770005F5CE /* ThirdViewController.m in Sources */,
 				38A618A51C4FC8C40005F5CE /* AppDelegate.m in Sources */,
+				38A618CA1C4FD7590005F5CE /* UIViewController+SLBackBtnAndViewExe.m in Sources */,
 				38A618A21C4FC8C40005F5CE /* main.m in Sources */,
+				38A618B91C4FC9130005F5CE /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLBackDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sfbao.SLBackDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLBackDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sfbao.SLBackDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
